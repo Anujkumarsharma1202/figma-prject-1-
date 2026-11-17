@@ -79,3 +79,19 @@ button {
 .card-info {
     padding: 15px;
 }
+
+#recommendations {
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+.dot {
+    cursor: pointer;
+    color: #ccc;
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.dot.active {
+    color: var(--primary);
+}
