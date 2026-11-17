@@ -57,3 +57,25 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+
+#projects {
+    padding: 0 10%;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-info {
+    padding: 15px;
+}
